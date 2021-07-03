@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/dist/css/finalproject/TinTuc.css">
+    <link rel="stylesheet" href="/dist/css/finalproject/Responsive.css">
+    <link rel="stylesheet" href="/dist/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title noneselect">
+            <div class="top-page">
+                    <ul>
+                        <li><a href="Login.html">Tài Khoản Của Tôi</a><i>|</i></li>
+                        <li><a href="Login.html">Yêu Thích</a><i>|</i></li>
+                        <li><a href="Login.html">So Sánh</a><i>|</i></li>
+                        <li><a href="Login.html">Đăng nhập</a></li>
+                    </ul>
+                   
+            </div>
+            <div class="container">
+                <div class="search_product">
+                    <img src="/src/img/finalproject/logo_mobile.png" alt="">
+                    <div class="product">
+                        <div class="search">
+                            <input type="text" placeholder="Từ khóa tìm kiếm...">
+                            <div class="icon_search">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="cart">
+                            <a href="Cart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>(2) Giỏ hàng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="head">
+                <div class="icon-bar hide-on-desktop  show-on-mobile-tablet">
+                    <div class="menu">
+                        <i class="fa fa-bars"></i>
+                        <h4>MENU</h4>
+                    </div>
+                    <div class="danhmuc">
+                        <h4>DANH MỤC</h4>
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <ul class="hide-on-mobile-tablet">
+                    <li><a class="trangchu" href="/HomePage.html">TRANG CHỦ</a></li>
+                    <li><a href="/SachBanChay.html">SÁCH BÁN CHẠY</a></li>
+                    <li><a href="/KhoaHocTrucTuyen.html">KHÓA HỌC TRỰC TUYẾN</a></li>
+                    <li><a href="/TinTuc.html">TIN TỨC</a></li>
+                    <li><a href="/Blog.html" style="color: #F47920;">BLOG</a></li>
+                    <li><a href="/LienHe.html">LIÊN HỆ</a></li>
+                    <li class="phone"><a href=""><img src="/src/img/finalproject/phone.png" alt="">1900 2647</a></li>
+                </ul>
+            </div>
+            <div class="menu-child">
+                <ul class="">
+                    <li><a class="trangchu" href="/HomePage.html">TRANG CHỦ</a></li>
+                    <li><a href="/SachBanChay.html">SÁCH BÁN CHẠY</a></li>
+                    <li><a href="/KhoaHocTrucTuyen.html">KHÓA HỌC TRỰC TUYẾN</a></li>
+                    <li><a href="/TinTuc.html">TIN TỨC</a></li>
+                    <li><a href="/Blog.html">BLOG</a></li>
+                    <li><a href="/LienHe.html">LIÊN HỆ</a></li>
+                    <li class="phone"><a href="#"><img src="/src/img/finalproject/phone.png" alt="">1900 2647</a></li>
+                </ul>
+            </div>
+            <div class="category-child"> 
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA BIZ</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="LanhDaoVaQuanLy.html">Lãnh đạo & Quản lý</a></li>
+                        <li><a href="#">Doanh nhân & Tập đoàn</a></li>
+                        <li><a href="#">Tài chính & Đầu tư</a></li>
+                        <li><a href="#">Nhân sự & Tuyển dụng</a></li>
+                        <li><a href="#">Truyền thông & Thương hiệu</a></li>
+                        <li><a href="#">Công nghệ & Quy trình</a></li>
+                        <li><a href="#">Văn hóa doanh nghiệp</a></li>
+                        <li><a href="#">Đàm phán & Thuyết phục</a></li>
+                        <li><a href="#">Chứng khoán</a></li>
+                        <li><a href="#">Bitcoin & Blockchain</a></li>
+                        <li><a href="#">Nền kinh tế 4.0</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA GEN</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Phát triển cá nhân</a></li>
+                        <li><a href="#">Tư duy sáng tạo</a></li>
+                        <li><a href="#">Cha mẹ giỏi - Con thông minh</a></li>
+                        <li><a href="#">Học tập</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">ALPHA OMEGA</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SỐNG - SÁCH TÁC GIẢ VIỆT</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Kỹ Năng Học Tập</a></li>
+                        <li><a href="#">Truyền Cảm Hứng</a></li>
+                        <li><a href="#">Trải Nghiệm Du Học - Văn Hóa - Du Lịch</a></li>
+                        <li><a href="#">Kinh Doanh - Khởi Nghiệp</a></li>
+                        <li><a href="#">Văn Học</a></li>
+                        <li><a href="#">Kỹ Năng Làm Cha Mẹ</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SÁCH KHOA HỌC - GIÁO DỤC ETS</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Top Sách Khoa Học Giáo Dục Hay Nhất</a></li>
+                        <li><a href="#">Độ Tuổi Thiếu Nhi</a></li>
+                        <li><a href="#">Học Sinh - Sinh Viên</a></li>
+                        <li><a href="#">Sách Phổ Biến Khoa Học</a></li>
+                        <li><a href="#">Sách Giáo Dục</a></li>
+                        <li><a href="#">Sách Toán</a></li>
+                        <li><a href="#">Sách Ngoại Ngữ</a></li>
+                        <li><a href="#">Bách Khoa Tri Thức</a></li>
+                        <li><a href="#">Sách Lịch Sử</a></li>
+                        <li><a href="#">Học Cụ Giáo Dụ</a></li>
+                        <li><a href="#">Sách Tham Khảo</a></li>
+                        <li><a href="#">Robot Giáo Dục</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SÁCH THIẾU NHI</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Top 100 Cuốn Sách Thiếu Nhi Hay Nhất</a></li>
+                        <li><a href="#">Độ tuổi 0-3 tuổi</a></li>
+                        <li><a href="#">Độ tuổi 3-6 tuổi</a></li>
+                        <li><a href="#">Độ tuổi 6-9 tuổi</a></li>
+                        <li><a href="#">Độ tuổi 9-15 tuổi</a></li>
+                        <li><a href="#">Sách Kỹ Năng</a></li>
+                        <li><a href="#">Sách Văn Học</a></li>
+                        <li><a href="#">Sách Tranh</a></li>
+                        <li><a href="#">Sách Song Ngữ</a></li>
+                        <li><a href="#">Thẻ Học Thông Minh</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">SÁCH THIẾU NHI</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA GAMMA</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Test Prep</a></li>
+                        <li><a href="#">Gamma Reading</a></li>
+                        <li><a href="#">Đánh thức tiềm năng ngoại ngữ</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">COMBO SÁCH</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">SÁCH SẮP XUÂT BẢN</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">DOANH NHÂN ĐỌC GÌ</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="#">Chiến Lược Doanh Nghiệp</a></li>
+                        <li><a href="#">Quản Trị Nhân Sự</a></li>
+                        <li><a href="#">Marketing & Bán hàng</a></li>
+                        <li><a href="#">Tài chính</a></li>
+                        <li><a href="#">Dẫn dắt sự thay đổi</a></li>
+                        <li><a href="#">Sản xuất</a></li>
+                        <li><a href="#">Quản trị doanh nghiệp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="layout row">
+            <div class="link-line noneselect  col-md-12">
+                <ul>
+                    <li>
+                        <a href="HomePage.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="Blog.html">BLOG</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="layout-first col-lg-3 col-md-12">
+                <div class="noneselect title-block">
+                    <h2>TIN MỚI</h2>
+                </div>
+                
+                <div class="news-block">
+                    <ul class="row">
+                        <li class="new-item col-lg-12 col-md-6 col-sm-6">
+                            <img class="col-md-12" src="/src/img/finalproject/News/alpha-books-hop-tac-voi-truong-doanh-nhan-pti.jpg" alt="">
+                            <div class="content-new-item col-md-12">
+                                <a href="">Alpha books chính thức hợp tác với...</a>
+                                <span>20/05/2020</span>
+                            </div>
+                        </li>
+                        <li class="new-item col-lg-12 col-md-6 col-sm-6">
+                            <img class="col-md-12" src="/src/img/finalproject/News/hieu-sach-alpha-books-nguyen-huy-tuong.jpg" alt="">
+                            <div class="content-new-item col-md-12">
+                                <a href="">Alpha Book khai trương hiệu sách đầu</a>
+                                <span>20/05/2020</span>
+                            </div>
+                        </li>
+                        <li class="new-item col-lg-12 col-md-6 col-sm-6">
+                            <img class="col-md-12" src="/src/img/finalproject/News/1-a6b192f2-1c6d-4186-a16e-95490f303e43.jpg" alt="">
+                            <div class="content-new-item col-md-12">
+                                <a href="">Top 10 cuốn sách quản trị...</a>
+                                <span>20/05/2020</span>
+                            </div>
+                        </li>
+                        <li class="new-item col-lg-12 col-md-6 col-sm-6">
+                            <img class="col-md-12" src="/src/img/finalproject/News/1-a6b192f2-1c6d-4186-a16e-95490f303e43.jpg" alt="">
+                            <div class="content-new-item col-md-12">
+                                <a href="">Những thách thức của nhà lãnh đạo...</a>
+                                <span>20/05/2020</span>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="banner_management hide-on-mobile-tablet">
+                    <img src="/src/img/finalproject/LanhDaoQuanLy/banner_blog_left.jpg" alt="">
+            </div>
+            </div>
+            <div class="layout-second col-lg-9 col-md-12">
+                <div class="list-news">
+                    <ul class="row">
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/top-10-sach-ban-chay-nhat-moi-thoi-dai.png" alt="">
+                            <a href="">
+                                TOP 10 CUỐN SÁCH KINH ĐIỂN BÁN CHẠY NHẤT MỌI THỜI ĐẠI AI CŨNG
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>Vũ Yến
+                            </span>
+                            <p>“Phong độ chỉ là nhất thời - Đẳng cấp mới là mãi mãi” cùng Alpha Books liệt kê 10 đầu sách nên đọc nhất hiện nay: 1. Tỷ phú bán giày Cuốn sách truyền cảm hứng cho độc giả bởi chính những thương vụ kinh doanh của tác giả khi khởi nghiệp từ 9 tuổi. Từ những trang trại giun đất, làm cúc áo thủ công, bán pizza ở Harvard,... đến những...</p>
+                        </li>
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/rsz-1alphabooks-va-dai-hoc-phenikaa-ky-ket-hop-tac.png" alt="">
+                            <a href="">
+                                Lễ ký kết hợp tác giữa Công ty Cổ phần sách Alpha và Trường Đại học Phenikaa
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>An_Core HT
+                            </span>
+                            <p>Sáng ngày 12/03/2021 tại Hà Nội đã diễn ra Lễ ký kết hợp tác giữa Trường đại học Phenikaa và công ty Cổ phần sách Alpha (Alpha Books) về việc đào tạo và phát triển kỹ năng mềm cho sinh viên Phenikaa. Tham gia chương trình, đại biểu phía nhà trường gồm có: PGS.TS Nguyễn Phú Khánh - Phó Tổng Giám đốc, Phó Hiệu trưởng Trường Đại học Phenikaa; ThS. Phạm Hương Trà – Q.Trưởng...</p>
+                        </li>
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/cmo.jpg" alt="">
+                            <a href="">
+                                [Recap] Nhìn lại talkshow CMO: Bạn là ai? (Phần 2)
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>Vũ Yến
+                            </span>
+                            <p>NHÌN LẠI TALKSHOW CMO: BẠN LÀ AI? (PHẦN 2) Host: Sau đây tôi xin chuyển sang phần tiếp theo của của phần tọa đàm. Lúc nãy chúng ta đã nói về thách thức, về vai trò của giám đốc marketing. Vậy con đường tiếp theo của những người làm marketing là gì, career path của họ sẽ tiếp tục như thế nào? Hay giám đốc marketing là...</p>
+                        </li>
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/cmo.jpg" alt="">
+                            <a href="">
+                                [Recap] Nhìn lại talkshow CMO: Bạn là ai? (Phần 1)
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>Vũ Yến
+                            </span>
+                            <p>NHÌN LẠI TALKSHOW CMO: BẠN LÀ AI? (PHẦN 1) Talkshow “CMO: BẠN LÀ AI?” vừa phát sóng ngày 28/2, các khách mời đã chia sẻ rất nhiều bài học kinh nghiệm về marketing. Diễn giả tham dự: Anh Tô Chính Nghĩa : Chuyên gia tư vấn chiến lược, Nguyên Giám đốc điều hành kiêm giám đốc Marketing và Sales của Samsung miền Bắc và miền Trung, Nguyên Giám...</p>
+                        </li>
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/1-4c73508b-aa64-41f2-9b18-c4640c340cc0.jpg" alt="">
+                            <a href="">
+                                Giới thiệu Combo sách Trí Tuệ Xúc Cảm của HBR (Alphabooks)
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>Vũ Yến
+                            </span>
+                            <p>“… Dù tiến bộ nhanh nhưng chúng ta lại đang tự nhốt mình. Máy móc đem tới sự dư thừa song ta vẫn cảm thấy thiếu thốn. Kiến thức dễ khiến ta trở nên hoài nghi, đố kỵ, vô cảm và bạo tàn. Chúng ta suy nghĩ nhiều nhưng lại cảm nhận quá ít (we think too much but feel very little) …” Đó là những lời “gan ruột” của vua hài Charlie Chaplin trong phim Nhà độc tài vĩ đại (The Great Dictator, 1940). Sau...</p>
+                        </li>
+                        <li class="new-item col-xl-4 col-lg-6 col-md-4 col-sm-6 col-xs-12">
+                            <img src="/src/img/finalproject/Blog/cd72d0bdbb6648381177.jpg" alt="">
+                            <a href="">
+                                TALKSHOW: WOMEN IN STRESS | Đi tìm sự cân bằng cuộc sống trong kỷ
+                            </a>
+                            <span>
+                                <i class="fas fa-user"></i>Vũ Yến
+                            </span>
+                            <p>Để kỷ niệm ngày Quốc Tế Phụ Nữ 8/3, Alpha Books hân hạnh tổ chức buổi Talk Show: "Women In Stress" với mong muốn mang đến cái nhìn tích cực về cộng sống và công việc cho các chị em phụ nữ. Talkshow như một buổi tâm sự và chia sẻ cũng như cảm ơn sự kiên cường của một nửa thế giới. Sự kiện trực tuyến Women In Stress ...</p>
+                        </li>
+                        
+                    </ul>
+                </div>
+                <div class="list-page noneselect">
+                    <ul>
+                        <li><a href="">1</a></li>
+                        <li><a href="">2</a></li>
+                        <li><a href="">3</a></li>
+                        <li><a href="">...</a></li>
+                        <li><a href="">8</a></li>
+                        <li><a href=""><i class="fa fa-angle-right"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="up">
+        <!-- <div class="container"> -->
+            <div class="area">
+                    <div class="item contact">
+                        <img src="/src/img/finalproject/Footer/logo_footer.png" alt="">
+                        <div class="add element">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Tầng 3, Dream Home Center, 11a ngõ 282 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội</p>
+                        </div>
+                        <div class="phone element">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p>1900 2647</p>
+                        </div>
+                        <div class="mail element">
+                            <i class="fa fa-envelope"></i>
+                            <p>info@alphabooks.vn</p>
+                        </div>
+                    </div>
+                    <div class="item infor">
+                        <ul>
+                            THÔNG TIN
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Giới Thiệu</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Hệ Thống Nhà Sách</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Hệ Thống Phát Hành</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Tuyển Dụng</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item policy">
+                        <ul>
+                            CHÍNH SÁCH
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Thanh Toán</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Vận Chuyển</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Bảo Mật</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Đổi Trả Hoàn Tiền</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item rules">
+                        <ul>
+                            ĐIỀU KHOẢN
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Điều Khoản Sử Dụng</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Điều Khoản Giao Dịch</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Dịch Vụ Tiện Ích</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Quyền Sở Hữu Trí Tuệ</a>
+                            </li>
+                            <img src="/src/img/finalproject/Footer/bo_cong_thuong.png" alt="">
+                        </ul>
+                    </div>
+                    <div class="item facebook">
+                        <!-- <span class="fb">FACEBOOK</span> -->
+                        <p>FACEBOOK</p>
+                        <img src="/src/img/finalproject/Footer/facebook.png" alt="">
+                    </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    <div class="down">
+        <div class="container">
+            <div class="content">
+                    <div class="submit"> 
+                        <p>ĐĂNG KÍ NHẬN BẢN TIN</p>
+                        <div class="submit-email">
+                            <input type="text" placeholder="Nhập địa chỉ email của bạn">
+                            <button>Gửi</button>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <i class="far fa-copyright"></i>
+                        <p>Bản quyền thuộc về Alpha Books | Cung cấp bởi <a href="">Sapo <span class="sapo">Sapo</span></a></p>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a  href="https://www.facebook.com/alphabooks/" target="_blank">
+                                    <i class="facebook fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                            <a class="_blank" href="https://www.youtube.com/channel/UCmuOSp9xaveJrSTQkytoGFA" target="_blank"> 
+                                <i class="youtube fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script src="/dist/js/LanhDaoVaQuanLy.js"></script>
+</html>

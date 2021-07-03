@@ -1,0 +1,125 @@
+// Desktop min-width:1024px
+// Tablet min-width:768px and max-width: 1023px
+// Smartphone max-width: 767px
+@media (min-width: 1024px)
+{
+    .hide-on-desktop {
+        display: none !important;
+    }
+}
+
+/* Mobile & tablet */
+
+@media (max-width: 1150px){
+    //Phuong thuc amazon
+    .layout {
+        .layout-first {
+            .danhmuc {
+                .loaisach {
+                    width: 236px;
+                    .danhmucsach {
+                        width: 234px !important;
+                    }
+                    .item {
+                        .sub-menu {
+                            left: 234px !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .show-on-mobile-tablet {
+        display: flex !important;
+    }
+    .hide-on-mobile-tablet {
+        display: none !important;
+    }
+
+    .layout-second {
+            .slider {
+                
+                margin-left: auto;
+                margin-right: auto;
+                .owl_sliderbanner {
+                    position: relative !important;
+                }
+               
+            }
+            .list-newbook {
+                    position: relative !important;
+                    top: 0px !important;
+            }
+            .bestseller {
+                position: relative !important;
+                top: 0px !important;
+            }
+    }
+    .p1 {
+        .danhmuc {
+            margin-right: 0px !important;
+        }
+    }
+    .search_product {
+        display: block !important;
+        img {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        .product {
+            justify-content: center;
+        }
+    }
+
+    .public {
+        .new_public {
+            .first {
+                display: none;
+            }
+        }
+    }
+
+    .second {
+        .owl-list {
+            position: relative !important;
+        }
+    }
+
+   
+
+
+}
+
+@media (max-width: 767px) {
+   
+    .banner {
+        display: block !important;
+        margin-left: auto !important;
+        margin-right: auto !important;
+        .first {
+            margin-bottom: 20px;
+        }
+    }
+}
+
+@media (max-width: 400px) {
+    header {
+        .title {
+            .top-page {
+                padding-right: 10px;
+                ul {
+                    li {
+                        a,i {
+                            font-size: 11px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+

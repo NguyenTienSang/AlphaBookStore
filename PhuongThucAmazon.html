@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phương Thức Amazon</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="/dist/css/finalproject/PhuongThucAmazon.css">
+    <link rel="stylesheet" href="/dist/css/finalproject/Responsive.css">
+    <link rel="stylesheet" href="/dist/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title noneselect">
+            <div class="top-page">
+                    <ul>
+                        <li><a href="Login.html">Tài Khoản Của Tôi</a><i>|</i></li>
+                        <li><a href="Login.html">Yêu Thích</a><i>|</i></li>
+                        <li><a href="Login.html">So Sánh</a><i>|</i></li>
+                        <li><a href="Login.html">Đăng nhập</a></li>
+                    </ul>
+                   
+            </div>
+            <div class="container">
+                <div class="search_product">
+                    <img src="/src/img/finalproject/logo_mobile.png" alt="">
+                    <div class="product">
+                        <div class="search">
+                            <input type="text" placeholder="Từ khóa tìm kiếm...">
+                            <div class="icon_search">
+                                <i class="fas fa-search"></i>
+                            </div>
+                        </div>
+                        <div class="cart">
+                            <a href="Cart.html">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span>(2) Giỏ hàng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="head">
+                <div class="icon-bar hide-on-desktop  show-on-mobile-tablet">
+                    <div class="menu">
+                        <i class="fa fa-bars"></i>
+                        <h4>MENU</h4>
+                    </div>
+                    <div class="danhmuc">
+                        <h4>DANH MỤC</h4>
+                        <i class="fa fa-bars"></i>
+                    </div>
+                </div>
+                <ul class="hide-on-mobile-tablet">
+                    <li><a class="trangchu" href="/HomePage.html">TRANG CHỦ</a></li>
+                    <li><a href="/SachBanChay.html">SÁCH BÁN CHẠY</a></li>
+                    <li><a href="/KhoaHocTrucTuyen.html"  style="color: #F47920;">KHÓA HỌC TRỰC TUYẾN</a></li>
+                    <li><a href="/TinTuc.html">TIN TỨC</a></li>
+                    <li><a href="/Blog.html">BLOG</a></li>
+                    <li><a href="/LienHe.html">LIÊN HỆ</a></li>
+                    <li class="phone"><a href=""><img src="/src/img/finalproject/phone.png" alt="">1900 2647</a></li>
+                </ul>
+            </div>
+            <div class="menu-child">
+                <ul class="">
+                    <li><a class="trangchu" href="/HomePage.html" >TRANG CHỦ</a></li>
+                    <li><a href="/SachBanChay.html">SÁCH BÁN CHẠY</a></li>
+                    <li><a href="/KhoaHocTrucTuyen.html">KHÓA HỌC TRỰC TUYẾN</a></li>
+                    <li><a href="/TinTuc.html">TIN TỨC</a></li>
+                    <li><a href="/Blog.html">BLOG</a></li>
+                    <li><a href="/LienHe.html">LIÊN HỆ</a></li>
+                    <li class="phone"><a href=""><img src="/src/img/finalproject/phone.png" alt="">1900 2647</a></li>
+                </ul>
+            </div>
+            <div class="category-child"> 
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA BIZ</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="LanhDaoVaQuanLy.html">Lãnh đạo & Quản lý</a></li>
+                        <li><a href="">Doanh nhân & Tập đoàn</a></li>
+                        <li><a href="">Tài chính & Đầu tư</a></li>
+                        <li><a href="">Nhân sự & Tuyển dụng</a></li>
+                        <li><a href="">Truyền thông & Thương hiệu</a></li>
+                        <li><a href="">Công nghệ & Quy trình</a></li>
+                        <li><a href="">Văn hóa doanh nghiệp</a></li>
+                        <li><a href="">Đàm phán & Thuyết phục</a></li>
+                        <li><a href="">Chứng khoán</a></li>
+                        <li><a href="">Bitcoin & Blockchain</a></li>
+                        <li><a href="">Nền kinh tế 4.0</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA GEN</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="">Phát triển cá nhân</a></li>
+                        <li><a href="">Tư duy sáng tạo</a></li>
+                        <li><a href="">Cha mẹ giỏi - Con thông minh</a></li>
+                        <li><a href="">Học tập</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">ALPHA OMEGA</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SỐNG - SÁCH TÁC GIẢ VIỆT</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="">Kỹ Năng Học Tập</a></li>
+                        <li><a href="">Truyền Cảm Hứng</a></li>
+                        <li><a href="">Trải Nghiệm Du Học - Văn Hóa - Du Lịch</a></li>
+                        <li><a href="">Kinh Doanh - Khởi Nghiệp</a></li>
+                        <li><a href="">Văn Học</a></li>
+                        <li><a href="">Kỹ Năng Làm Cha Mẹ</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SÁCH KHOA HỌC - GIÁO DỤC ETS</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="">Top Sách Khoa Học Giáo Dục Hay Nhất</a></li>
+                        <li><a href="">Độ Tuổi Thiếu Nhi</a></li>
+                        <li><a href="">Học Sinh - Sinh Viên</a></li>
+                        <li><a href="">Sách Phổ Biến Khoa Học</a></li>
+                        <li><a href="">Sách Giáo Dục</a></li>
+                        <li><a href="">Sách Toán</a></li>
+                        <li><a href="">Sách Ngoại Ngữ</a></li>
+                        <li><a href="">Bách Khoa Tri Thức</a></li>
+                        <li><a href="">Sách Lịch Sử</a></li>
+                        <li><a href="">Học Cụ Giáo Dụ</a></li>
+                        <li><a href="">Sách Tham Khảo</a></li>
+                        <li><a href="">Robot Giáo Dục</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">SÁCH THIẾU NHI</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="">Top 100 Cuốn Sách Thiếu Nhi Hay Nhất</a></li>
+                        <li><a href="">Độ tuổi 0-3 tuổi</a></li>
+                        <li><a href="">Độ tuổi 3-6 tuổi</a></li>
+                        <li><a href="">Độ tuổi 6-9 tuổi</a></li>
+                        <li><a href="">Độ tuổi 9-15 tuổi</a></li>
+                        <li><a href="">Sách Kỹ Năng</a></li>
+                        <li><a href="">Sách Văn Học</a></li>
+                        <li><a href="">Sách Tranh</a></li>
+                        <li><a href="">Sách Song Ngữ</a></li>
+                        <li><a href="">Thẻ Học Thông Minh</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">SÁCH THIẾU NHI</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">ALPHA GAMMA</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="/Category_TestPrep.html">Test Prep</a></li>
+                        <li><a href="/Category_GammaReading.html">Gamma Reading</a></li>
+                        <li><a href="/Category_DanhThucTiemNangNgoaiNgu.html">Đánh thức tiềm năng ngoại ngữ</a></li>
+                    </ul>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">COMBO SÁCH</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <a href="javascript:void(0)">SÁCH SẮP XUÂT BẢN</a>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="category">
+                        <i class="fas fa-angle-left"></i>
+                        <a href="javascript:void(0)">DOANH NHÂN ĐỌC GÌ</a>
+                    </div>
+                    <ul class="sub-menu">
+                        <li><a href="/Category_ChienLuocDoanhNghiep.html">Chiến Lược Doanh Nghiệp</a></li>
+                        <li><a href="/Category_QuanTriNhanSu.html">Quản Trị Nhân Sự</a></li>
+                        <li><a href="/Category_MarketingVaBanHang.html">Marketing & Bán hàng</a></li>
+                        <li><a href="/Category_TaiChinh.html">Tài chính</a></li>
+                        <li><a href="/Category_DanDatSuThayDoi.html">Dẫn dắt sự thay đổi</a></li>
+                        <li><a href="/Category_SanXuat.html">Sản xuất</a></li>
+                        <li><a href="/Category_QuanTriDoanhNghiep.html">Quản trị doanh nghiệp</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="layout row">
+            <div class="link-line noneselect  col-lg-12">
+                <ul>
+                    <li>
+                        <a href="HomePage.html">TRANG CHỦ</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-chevron-right"></i>
+                        <a href="SachBanChay.html">PHƯƠNG THỨC AMAZON</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="layout-first hide-on-mobile-tablet col-lg-3">
+                <div class="danhmuc"> 
+                    <div class="loaisach">
+                                <div class="item">
+                                    <div class="danhmucsach"><i class="fa fa-bars"></i> DANH MỤC SÁCH</div>    
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">ALPHA BIZ</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="LanhDaoVaQuanLy.html">Lãnh đạo & Quản lý</a></li>
+                                        <li><a href="#">Doanh nhân & Tập đoàn</a></li>
+                                        <li><a href="#">Tài chính & Đầu tư</a></li>
+                                        <li><a href="#">Nhân sự & Tuyển dụng</a></li>
+                                        <li><a href="#">Truyền thông & Thương hiệu</a></li>
+                                        <li><a href="#">Công nghệ & Qui trình</a></li>
+                                        <li><a href="#">Văn hóa doanh nghiệp</a></li>
+                                        <li><a href="#">Đàm phán & Thuyết phục</a></li>
+                                        <li><a href="#">Chứng khoán</a></li>
+                                        <li><a href="#">Blockchain & Bitcoin</a></li>
+                                        <li><a href="#">Nền kinh tế 4.0</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">ALPHA GEN</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Phát triển cá nhân</a></li>
+                                        <li><a href="#">Tư duy sáng tạo</a></li>
+                                        <li><a href="#">Cha mẹ giỏi - Con thông minh</a></li>
+                                        <li><a href="#">Học tập</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">ALPHA OMEGA</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">SỐNG - SÁCH TÁC GIẢ VIỆT</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Kỹ Năng Học Tập</a></li>
+                                        <li><a href="#">Truyền Cảm Hứng</a></li>
+                                        <li><a href="#">Trải Nghiệm Du Học - Văn Hóa - Du Lịch</a></li>
+                                        <li><a href="#">Kinh Doanh - Khởi Nghiệp</a></li>
+                                        <li><a href="#">Văn Học</a></li>
+                                        <li><a href="#">Kỹ Năng Làm Cha Mẹ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">SÁCH KHOA HỌC - GIÁO DỤC ETS</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Top Sách Khoa Học Giáo Dục Hay Nhất</a></li>
+                                        <li><a href="#">Độ Tuổi Thiếu Nhi</a></li>
+                                        <li><a href="#">Học Sinh - Sinh Viên</a></li>
+                                        <li><a href="#">Sách Phổ Biến Khoa Học</a></li>
+                                        <li><a href="#">Sách Giáo Dục</a></li>
+                                        <li><a href="#">Sách Toán</a></li>
+                                        <li><a href="#">Sách Ngoại Ngữ</a></li>
+                                        <li><a href="#">Bách Khoa Tri Thức</a></li>
+                                        <li><a href="#">Sách Lịch Sử</a></li>
+                                        <li><a href="#">Học Cụ Giáo Dục</a></li>
+                                        <li><a href="#">Sách Tham Khảo</a></li>
+                                        <li><a href="#">Robot Giáo Dục</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">SÁCH THIẾU NHI</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Top 100 Cuốn Sách Thiếu Nhi Hay Nhất</a></li>
+                                        <li><a href="#">Độ tuổi 0-3 tuổi</a></li>
+                                        <li><a href="#">Độ tuổi 3-6 tuổi</a></li>
+                                        <li><a href="#">Độ tuổi 6-9 tuổi</a></li>
+                                        <li><a href="#">Độ tuổi 9-15 tuổi</a></li>
+                                        <li><a href="#">Sách Kỹ Năng</a></li>
+                                        <li><a href="#">Sách Văn Học</a></li>
+                                        <li><a href="#">Sách Tranh</a></li>
+                                        <li><a href="#">Sách Song Ngữ</a></li>
+                                        <li><a href="#">Thẻ Học Thông Minh</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="">VĂN HỌC</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">ALPHA GAMMA</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Test Prep</a></li>
+                                        <li><a href="#">Gamma Reading</a></li>
+                                        <li><a href="#">Đánh thức tiềm năng ngoại ngữ</a></li>
+                                    </ul>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">COMBO SÁCH</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">SÁCH SẮP XUÂT BẢN</a>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="category">
+                                        <a href="#">DOANH NHÂN ĐỌC GÌ</a>
+                                        <i class="fas fa-angle-right"></i>
+                                    </div>
+                                    <ul class="sub-menu">
+                                        <li><a href="#">Chiến Lược Doanh Nghiệp</a></li>
+                                        <li><a href="#">Quản Trị Nhân Sự</a></li>
+                                        <li><a href="#">Marketing & Bán hàng</a></li>
+                                        <li><a href="#">Tài chính</a></li>
+                                        <li><a href="#">Dẫn dắt sự thay đổi</a></li>
+                                        <li><a href="#">Sản xuất</a></li>
+                                        <li><a href="#">Quản trị doanh nghiệp</a></li>
+                                    </ul>
+                                </div>
+                    </div>       
+                </div>
+                <div class="banner_management">
+                    <img src="/src/img/finalproject/LanhDaoQuanLy/banner_blog_left.jpg" alt="">
+            </div>
+            </div>
+            <div class="layout-second col-lg-9 col-md-12">
+                <div class="content-book col-md-12 row">
+                        <div class="image-book col-md-5">
+                            <div class="read-try">
+                                <img src="/src/img/finalproject/icon-doc-thu.png" alt="">
+                            </div>
+                            <div class="main">
+                                <img src="/src/img/finalproject/amazone-mk-01.jpg" alt="">
+                            </div>
+                            <div class="child">
+                                <img src="/src/img/finalproject/amazone-mk-01.jpg" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="script-book col-md-7">
+                            <h5>Combo Phương thức Amazon</h5>
+                            <div class="status"><h5>Tình trạng :</h5><span>Còn hàng</span></div>
+                            <div class="price-original"><h5>Giá bìa: </h5><span>228.000₫</span></div>
+                            <div class="price-sale"><h5>Giá đang giảm: </h5><span>182.400₫</span></div>
+                            <div class="save"><h5>Tiết kiệm:</h5><span>45.600₫  (- 20%)</span></div>
+                            <div class="description"><p>Alpha Books xin trân trọng giới thiệu bộ sách Phương thức Amazon của tác giả John Rossman: Phương thức Amazon: 14 nguyên tắc lãnh đạo của một công ty đột phá bậc nhất thế giới Chỉ trong 20 năm, từ một công ty bán sách trực tuyến, Amazon.com đã chiếm lĩnh thế giới mua sắm trực tuyến, góp phần thúc đẩy cuộc cách mạng về thiết bị đọc cá nhân và phá vỡ...</p></div>
+                            <div class="buy-book">
+                                <input class="number-book" type="number" value="1">
+                                <!-- <div class="buy-now"><i class="fas fa-shopping-cart"></i>MUA NGAY</div> -->
+                                <button onclick="onClickDuaVaoGioHang()" class="buy-now"><i class="fas fa-shopping-cart"></i>THÊM VÀO GIỎ HÀNG</button>
+                            </div>
+                            <div class="add-like"><i class="fas fa-heart"></i><h5>Thêm vào yêu thích</h5></div>
+                            <div class="promotion">
+                                <ul class="promotion-content">
+                                    <h5>Dịch vụ và khuyến mãi</h5>
+                                    <li><i class="fas fa-check"></i><h5>Khuyến mãi HOT</h5><a href="#">Chi tiết</a></li>
+                                    <li><i class="fas fa-check"></i><h5>Top 100 cuốn sách Quản trị Kinh doanh hay nhất</h5><a href="#">Chi tiết</a></li>
+                                    <li><i class="fas fa-check"></i><h5>Top 20 cuốn sách Kỹ năng sống dành cho bạn trẻ</h5><a href="#">Chi tiết</a></li>
+                                    <li><i class="fas fa-check"></i><h5>8 cuốn sách kinh điển về tài chính mà nhà đầu tư nào cũng nên đọc</h5><a href="#">Chi tiết</a></li>
+                                </ul>
+                            </div>
+                            <div class="social-media">
+                                <ul>
+                                    <li><a class="facebook" href="http://facebook.com"><i class="fab fa-facebook-f"></i>Facebook</a></li>
+                                    <li><a class="twitter" href="https://twitter.com"><i class="fab fa-twitter"></i>Twitter</a></li>
+                                    <li><a class="google" href="google.com"><i class="fab fa-google-plus-g"></i>Google+</a></li>
+                                    <li><a class="instagram" href="https://instagram.com"><i class="fab fa-instagram"></i>Instagram</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                </div>
+                <div class="introduce-book col-md-12">
+                    <h5 class="title-introduce">GIỚI THIỆU SÁCH</h5>
+                    <div class="content">
+                        <p>Alpha Books xin trân trọng giới thiệu bộ sách Phương thức Amazon của tác giả John Rossman:</p>
+                        <p><b>Phương thức Amazon: 14 nguyên tắc lãnh đạo của một công ty đột phá bậc nhất thế giới</b></p>
+                        <p>Chỉ trong 20 năm, từ một công ty bán sách trực tuyến, Amazon.com đã chiếm lĩnh thế giới mua sắm trực tuyến, góp phần thúc đẩy cuộc cách mạng về thiết bị đọc cá nhân và phá vỡ nhiều ngành công nghiệp, bao gồm bán lẻ, xuất bản, hậu cần, thiết bị, may mặc và điện toán đám mây.</p>
+                        <p>Vậy bí mật thành công của Amazon là gì? Có hàng chục triệu sản phẩm trong kho, năng lực công nghệ vượt trội hay nhiều cải tiến về dịch vụ khách hàng?</p>
+                        <p>Trong <b>Phương Thức Amazon</b>, Rossman sẽ cho độc giả câu trả lời trọn vẹn nhất. Thông qua các trải nghiệm chân thực và những mẩu chuyện hài hước, phong cách điều hành lấy khách hàng làm trung tâm cùng 14 nguyên tắc lãnh đạo đã dẫn dắt và định hình các chiến lược kinh doanh cũng như văn hóa của Amazon cũng được hé lộ.</p>
+                        <p>Các nguyên tắc này đã thúc đẩy văn hóa đổi mới tại Amazon và có thể giúp bất kỳ doanh nghiệp nào giành được lợi thế cạnh tranh.</p>
+                        <p><b>Phương Thức Amazon - 10 nguyên lý Internet Vạn vật thay đổi doanh nghiệp hiện đại</b></p>
+                        <p>Amazon là công ty công nghệ đột phá bậc nhất thế giới với các chiến lược IoT có tầm ảnh hưởng lớn đến mọi tổ chức và lĩnh vực. Sau nhiều năm nghiên cứu và làm việc tại Amazon cũng như nhiều công ty khác, John Rossman đã đúc kết ra 10 nguyên lý - 10 bài học đáng giá giúp mọi doanh nghiệp tiến bước thành công vào kỷ nguyên IoT như:</p>
+                        <ul>
+                            <li>Cải thiện trải nghiệm người dùng nhờ công cụ IoT</li>
+                            <li>Quản trị doanh nghiệp thông qua quản lý số liệu, thuật toán sử dụng IoT</li>
+                            <li>Phương thức khởi đầu với IoT nào mà không phải đặt cược quá lớn</li>
+                            <li>Những mô hình kinh doanh mới mà IoT tạo ra</li>
+                            <li>Các chiến lược IoT đột phá trong ngành của bạn</li>
+                        </ul>
+                        <p>Hãy nắm vững và vận dụng các nguyên lý này để biến IoT thành công cụ giúp doanh nghiệp bạn thay đổi và dẫn dắt cuộc chơi.</p>
+                        <p><b>Xin trân trọng giới thiệu!</b></p>
+                        <h5>Đánh giá sản phẩm</h5>
+                        <div class="write-rate">
+                            <input type="button" value="Viết đánh giá" onclick="openForm()">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="order-success">
+                    <p>Đã thêm vào giỏ hàng</p>
+                </div>
+
+                <div class="list-sametype">
+                    <div class="title"><a href="">SÁCH CÙNG LOẠI</a></div>
+                    <div class="owl_sametype owl-carousel">
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href="">Chi tiết</a></div>
+                                    <div class="item-book">
+                                        <a class="pass_link" href="/Book_PhuongThuc_Amazon.html">
+                                            <div class="item-image">
+                                                <img src="/src/img/finalproject/LanhDaoQuanLy/sach-dong-tien-gan-lien-loi-nhuan-2.jpg" alt="">
+                                            </div>
+                                            <div class="price-reduc">
+                                                <span class="price-percent-reduce">-20%</span>
+                                            </div>
+                                    </div>
+                                        <div class="item-price">
+                                            <a class="item-price-book" href="/Book_PhuongThuc_Amazon.html"><p>Dòng Tiền Gắn Liền Lợi Nhuận</p></a>
+                                            <div class="item-price-infor">
+                                                <div class="price-original">
+                                                    <p class="item-price-infor-orginal">228.000₫</p>
+                                                </div>
+                                                <div class="price-reduce">
+                                                    <p class="item-price-infor-percent">-20%</p>
+                                                    <p class="item-price-infor-reduce">182.400₫</p>
+                                                </div>
+                                            </div>
+                                            <div class="item-price-star">
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <i class="fas fa-star"></i>
+                                                <span>50</span>
+                                                <img src="/src/img/finalproject/user.png" alt="">
+                                            </div>
+                                        </div>   
+                                    </a>
+                                    </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href="">Chi tiết</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img src="/src/img/finalproject/LanhDaoQuanLy/nhan-su-cot-can.png" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Nhân sự cốt cán: Bí quyết để trở thành...</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">109.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                            <p class="item-price-infor-reduce">87.200₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href=""><i class="fa fa-shopping-cart"></i> Mua ngay</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img src="/src/img/finalproject/lam-viec-truc-tuyen.jpg" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Làm Việc Trực Tuyến, Quán Xuyến Tương Lai</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">129.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">103.200₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href=""><i class="fa fa-shopping-cart"></i> Mua ngay</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img src="/src/img/finalproject/LanhDaoQuanLy/cuoc-chien-trong-phong-hop.jpg" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Cuộc Chiến Trong Phòng Họp</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">119.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">95.200₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href=""><i class="fa fa-shopping-cart"></i> Mua ngay</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img  src="/src/img/finalproject/LanhDaoQuanLy/thay-doi-dam-choi-tu-dau.jpg" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Thay Đổi Đâm Chồi Từ Đâu?</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">118.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">94.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                    </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href=""><i class="fa fa-shopping-cart"></i> Mua ngay</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img  src="/src/img/finalproject/sach-ke-toan-quan-tri-bia-truoc.jpg" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Kế toán quản Trị</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">118.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">94.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href="">Chi tiết</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img src="/src/img/finalproject/sach-hung-manh-hon-sau-khung-hoang-alphabooks.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Hùng mạnh hơn sau khủng hoảng (Tái Bản)</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">129.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">94.000₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                </div>   
+                                </div>
+                                <div class="item">
+                                    <div class="choose"><a class="shopping" href="">Chi tiết</a></div>
+                                    <div class="item-book">
+                                        <div class="item-image">
+                                            <img src="/src/img/finalproject/sach-ke-khon-di-loi-khac-the-third-door.jpg" alt="">
+                                        </div>
+                                        <div class="price-reduc">
+                                            <span class="price-percent-reduce">-20%</span>
+                                        </div>
+                                    </div>
+                                    <div class="item-price">
+                                        <a class="item-price-book" href=""><p>Kẻ Khôn Đi Lối Khác</p></a>
+                                        <div class="item-price-infor">
+                                            <div class="price-original">
+                                                <p class="item-price-infor-orginal">159.000₫</p>
+                                            </div>
+                                            <div class="price-reduce">
+                                                <p class="item-price-infor-percent">-20%</p>
+                                                <p class="item-price-infor-reduce">127.200₫</p>
+                                            </div>
+                                        </div>
+                                        <div class="item-price-star">
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <i class="fas fa-star"></i>
+                                            <span>50</span>
+                                            <img src="/src/img/finalproject/user.png" alt="">
+                                        </div>
+                                </div>   
+                                </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Modal layout -->
+        <div id="modal" class="modal">
+            <div class="modal__overlay"></div>
+
+            <div class="modal__body">
+                <span class="closebtn" onclick="closeForm()" title="Close Overplay"> &#215</span>
+                <!-- <i class="fas fa-times-circle"></i> -->
+                <div class="modal__inner">
+                    <h5>Đánh giá sản phẩm</h5>
+                    <div class="star-widget"> 
+                            <input class="rate" type="radio" name="rate" id="rate-5">
+                            <label for="rate-5" class="fas fa-star"></label>
+                            <input class="rate" type="radio" name="rate" id="rate-4">
+                            <label for="rate-4" class="fas fa-star"></label>
+                            <input class="rate" type="radio" name="rate" id="rate-3">
+                            <label for="rate-3" class="fas fa-star"></label>
+                            <input class="rate" type="radio" name="rate" id="rate-2">
+                            <label for="rate-2" class="fas fa-star"></label>
+                            <input class="rate" type="radio" name="rate" checked id="rate-1">
+                            <label for="rate-1" class="fas fa-star" ></label>
+                       
+                            <header></header>
+                    </div>   
+                    <input id="hoten" type="text" placeholder="Họ tên của bạn">
+                    <input id="email" type="email" placeholder="Email của bạn">
+                    <input id="tieude" type="text" placeholder="Tiêu đề">
+                    <div class="content">
+                        <textarea name="" id="textarea" cols="40" rows="5" placeholder="Nội dung"></textarea>
+                    </div>
+                    <span id="error" class="error" style="display: flex; justify-content: center; color: red;"></span>
+                    <div class="submit">
+                        <button type="button" onclick="onFormSubmit(); return true;">Gửi</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+<footer>
+    <div class="up">
+        <!-- <div class="container"> -->
+            <div class="area">
+                    <div class="item contact">
+                        <img src="/src/img/finalproject/Footer/logo_footer.png" alt="">
+                        <div class="add element">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <p>Tầng 3, Dream Home Center, 11a ngõ 282 Nguyễn Huy Tưởng, Thanh Xuân, Hà Nội</p>
+                        </div>
+                        <div class="phone element">
+                            <i class="fas fa-mobile-alt"></i>
+                            <p>1900 2647</p>
+                        </div>
+                        <div class="mail element">
+                            <i class="fa fa-envelope"></i>
+                            <p>info@alphabooks.vn</p>
+                        </div>
+                    </div>
+                    <div class="item infor">
+                        <ul>
+                            THÔNG TIN
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Giới Thiệu</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Hệ Thống Nhà Sách</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Hệ Thống Phát Hành</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Tuyển Dụng</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Liên Hệ</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item policy">
+                        <ul>
+                            CHÍNH SÁCH
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Thanh Toán</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Vận Chuyển</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Bảo Mật</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Chính Sách Đổi Trả Hoàn Tiền</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="item rules">
+                        <ul>
+                            ĐIỀU KHOẢN
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Điều Khoản Sử Dụng</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Điều Khoản Giao Dịch</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Dịch Vụ Tiện Ích</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-chevron-right"></i>
+                                <a href="">Quyền Sở Hữu Trí Tuệ</a>
+                            </li>
+                            <img src="/src/img/finalproject/Footer/bo_cong_thuong.png" alt="">
+                        </ul>
+                    </div>
+                    <div class="item facebook">
+                        <!-- <span class="fb">FACEBOOK</span> -->
+                        <p>FACEBOOK</p>
+                        <img src="/src/img/finalproject/Footer/facebook.png" alt="">
+                    </div>
+            </div>
+        <!-- </div> -->
+    </div>
+    <div class="down">
+        <div class="container">
+            <div class="content">
+                    <div class="submit"> 
+                        <p>ĐĂNG KÍ NHẬN BẢN TIN</p>
+                        <div class="submit-email">
+                            <input type="text" placeholder="Nhập địa chỉ email của bạn">
+                            <button>Gửi</button>
+                        </div>
+                    </div>
+                    <div class="copyright">
+                        <i class="far fa-copyright"></i>
+                        <p>Bản quyền thuộc về Alpha Books | Cung cấp bởi <a href="">Sapo <span class="sapo">Sapo</span></a></p>
+                    </div>
+                    <div class="social">
+                        <ul>
+                            <li>
+                                <a  href="https://www.facebook.com/alphabooks/" target="_blank">
+                                    <i class="facebook fab fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li>
+                            <a class="_blank" href="https://www.youtube.com/channel/UCmuOSp9xaveJrSTQkytoGFA" target="_blank"> 
+                                <i class="youtube fab fa-youtube"></i>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script> 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script> 
+<script src="/dist/js/PhuongThucAmazon.js"></script>
+</html>
